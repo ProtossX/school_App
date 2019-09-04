@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.chxip.campusinfo.MainActivity">
+
+    <com.chxip.campusinfo.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </com.chxip.campusinfo.view.ViewPager>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/DDDDDD"/>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tl_main_menu"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        app:tabIndicatorHeight="0dp"
+        app:tabSelectedTextColor="@color/blue"
+        app:tabTextColor="@color/text_gray_6">
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/ti_main_workbench"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@mipmap/main_workbench_selected"
+            android:text="课表" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/ti_main_order_record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@mipmap/order_record"
+            android:text="失物招领" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/ti_main_check_record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@mipmap/check_record"
+            android:text="万能信息墙" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/ti_main_personal_center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@mipmap/personal_center"
+            android:text="我的" />
+    </android.support.design.widget.TabLayout>
+
+</LinearLayout>

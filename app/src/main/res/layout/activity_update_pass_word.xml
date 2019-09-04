@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.UpdatePassWordActivity">
+
+    <include layout="@layout/title"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_gray_9"
+            android:text="@string/update_password_ts"
+            android:textSize="@dimen/text_size_12"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/DDDDDD"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:orientation="vertical"
+        android:background="@color/white"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:gravity="center_vertical"
+            >
+            <com.chxip.campusinfo.view.ImageTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/image_login_pwd"
+                android:textColor="@color/text_gray_6"
+                android:textSize="@dimen/text_size_22"
+                />
+
+            <EditText
+                android:id="@+id/et_update_password_original"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/text_black"
+                android:textColorHint="@color/text_gray_9"
+                android:textSize="@dimen/text_size_14"
+                android:layout_marginRight="5dp"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:hint="@string/update_password_original"
+                />
+
+            <com.chxip.campusinfo.view.ImageTextView
+                android:id="@+id/tv_update_password_original_according"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/image_edittext_delete"
+                android:textColor="@color/text_gray_6"
+                android:layout_gravity="right"
+                android:textSize="@dimen/text_size_14"
+                android:visibility="invisible"
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/DDDDDD"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:gravity="center_vertical"
+            >
+            <com.chxip.campusinfo.view.ImageTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/image_update_password_new"
+                android:textColor="@color/text_gray_6"
+                android:textSize="@dimen/text_size_22"
+                />
+
+            <EditText
+                android:id="@+id/et_update_password_new"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/text_black"
+                android:textColorHint="@color/text_gray_9"
+                android:textSize="@dimen/text_size_14"
+                android:layout_marginRight="5dp"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:hint="@string/update_password_new"
+                />
+
+            <com.chxip.campusinfo.view.ImageTextView
+                android:id="@+id/tv_update_password_new_according"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/image_edittext_delete"
+                android:textColor="@color/text_gray_6"
+                android:layout_gravity="right"
+                android:textSize="@dimen/text_size_14"
+                android:visibility="invisible"
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/DDDDDD"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:gravity="center_vertical"
+            >
+            <com.chxip.campusinfo.view.ImageTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/image_update_password_new"
+                android:textColor="@color/text_gray_6"
+                android:textSize="@dimen/text_size_22"
+                />
+
+            <EditText
+                android:id="@+id/et_update_password_new_confirm"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/text_black"
+                android:textColorHint="@color/text_gray_9"
+                android:textSize="@dimen/text_size_14"
+                android:layout_marginRight="5dp"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:hint="@string/update_password_new_confirm"
+                />
+
+            <com.chxip.campusinfo.view.ImageTextView
+                android:id="@+id/tv_update_password_new_confirm_according"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/image_edittext_delete"
+                android:textColor="@color/text_gray_6"
+                android:layout_gravity="right"
+                android:textSize="@dimen/text_size_14"
+                android:visibility="invisible"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/DDDDDD"/>
+
+    <LinearLayout
+        android:id="@+id/ll_update_password_determine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/blue_button"
+        android:clickable="true"
+        android:gravity="center"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/update_password_determine"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_14" />
+    </LinearLayout>
+
+</LinearLayout>

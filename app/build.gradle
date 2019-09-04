@@ -1,0 +1,55 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '28.0.3'
+    defaultConfig {
+        applicationId "com.chxip.campusinfo"
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    //gson
+    compile 'com.google.code.gson:gson:2.7'
+    // butterknife   组件注入
+    implementation 'com.jakewharton:butterknife:8.2.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.2.1'
+    //权限框架
+    implementation 'com.yanzhenjie:permission:1.0.5'
+    //Volley
+    compile files('libs/volley.jar')
+    //分包
+    compile 'com.android.support:multidex:1.0.1'
+    //Base64
+    compile files('libs/commons-codec-1.4.jar')
+    //glide
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    //TabLayout
+    compile 'com.android.support:design:25.3.1'
+    //OKHTTP
+    compile 'com.squareup.okhttp3:okhttp:3.7.0'
+    //鲁班压缩
+    compile 'io.reactivex:rxandroid:1.2.1'
+    compile 'io.reactivex:rxjava:1.1.6'
+    compile 'top.zibin:Luban:1.0.9'
+    //课程控件
+    implementation project(':TimetableView')
+    implementation project(':PhotoPicker')
+    //glide
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+}

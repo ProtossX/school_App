@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<me.iwf.photopicker.widget.SquareItemLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="60dp"
+    android:layout_height="80dp"
+    android:layout_marginTop="1dp"
+    android:layout_marginBottom="1dp"
+    android:padding="1dp"
+    android:layout_marginLeft="2dp"
+    android:gravity="center"
+    android:background="@drawable/bg_item_photo">
+
+    <ImageView
+        android:src="@mipmap/photograph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</me.iwf.photopicker.widget.SquareItemLayout>
+

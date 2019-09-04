@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">校园信息</string>
+
+    <!-- 图标 -->
+    <string name="image_login_name">&#xe63c;</string>
+    <string name="image_login_pwd">&#xe627;</string>
+    <string name="image_edittext_delete">&#xe692;</string>
+    <string name="image_login_pwd_according">&#xe72f;</string>
+    <string name="image_login_pwd_hidden">&#xe61f;</string>
+    <string name="image_login_weChat">&#xe717;</string>
+    <string name="image_mobile">&#xe60c;</string>
+    <string name="image_verification_code">&#xe612;</string>
+    <string name="image_password">&#xe627;</string>
+    <string name="image_bule_more">&#xe611;</string>
+    <string name="image_update_password_new">&#xe613;</string>
+
+
+    <string name="login_name_hint">请输入学号</string>
+    <string name="login_pwd_hint">请输入密码</string>
+    <string name="login_dl">登录</string>
+    <string name="login_sm">技术提供 • 上海复通软件技术有限公司</string>
+    <string name="login_jzmm">记住帐号和密码</string>
+    <string name="login_name_null">用户名不能为空!</string>
+    <string name="login_pwd_null">密码不能为空!</string>
+    <string name="login_ts_msg">正在登录,请稍后...</string>
+    <string name="login_error">帐号或密码错误!</string>
+
+    <string name="press_again_exit">再按一次退出</string>
+    <string name="app_network_false">当前网络不可用!</string>
+    <string name="app_network_error">网络出现错误!</string>
+
+    <string name="app_dialog_hint">加载中，请稍后...</string>
+    <string name="app_dialog_getData">获取数据中，请稍后...</string>
+    <string name="app_dialog_save">保存数据中，请稍后...</string>
+    <string name="app_dialog_delete">删除中，请稍后...</string>
+    <string name="app_btn_save">保存</string>
+    <string name="app_btn_add">添加</string>
+    <string name="app_btn_add_two">新增</string>
+    <string name="app_btn_determine">确定</string>
+    <string name="app_btn_complete">完成</string>
+    <string name="app_btn_edit">编辑</string>
+    <string name="app_btn_delete">删除</string>
+    <string name="app_btn_submit">提交</string>
+
+    <!-- 自定义组件 -->
+    <string name="pull_to_refresh">下拉可以刷新</string>
+    <string name="release_to_refresh">松开可以刷新</string>
+    <string name="lastUpdateTime">最近更新：%s</string>
+    <string name="load_full">已加载全部</string>
+    <string name="no_data">暂无数据</string>
+    <string name="more">加载中</string>
+    <string name="d">图片描述</string>
+
+    <!-- 修改密码 -->
+    <string name="update_password_title">修改密码</string>
+    <string name="update_password_ts">为了你的账号安全，修改密码前请输入原密码</string>
+    <string name="update_password_original">请输入原密码</string>
+    <string name="update_password_new">请输入新密码</string>
+    <string name="update_password_new_confirm">请再次输入新密码</string>
+    <string name="update_password_determine">确认修改</string>
+
+    <!-- 权限 -->
+    <string name="permission_fail_apply">权限申请失败</string>
+    <string name="permission_fail_apply_message">此功能需要定位、文件读取权限，请您到设置页面手动授权，否则功能无法正常使用！</string>
+    <string name="permission_set">设置</string>
+    <string name="permission_fail_apply_message_one">此功能需要相机、文件读取，请您到设置页面手动授权，否则功能无法正常使用！</string>
+
+
+</resources>
